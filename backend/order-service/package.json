@@ -1,0 +1,27 @@
+{
+  "name": "@demoai/order-service",
+  "version": "1.4.2",
+  "description": "Order lifecycle management service — cart, checkout, guest orders",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js",
+    "test": "jest --coverage",
+    "lint": "eslint src/"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "pg": "^8.11.0",
+    "redis": "^4.6.7",
+    "jsonwebtoken": "^9.0.0",
+    "joi": "^17.9.2",
+    "uuid": "^9.0.0",
+    "winston": "^3.10.0"
+  },
+  "devDependencies": {
+    "jest": "^29.6.1",
+    "supertest": "^6.3.3",
+    "nodemon": "^3.0.1",
+    "eslint": "^8.46.0"
+  }
+}
